@@ -1,133 +1,105 @@
-@font-face {
-    font-family: Makuton_Japanese_Vintage;
-    src: url(./Tipografías/Makuton_Japanese_Vintage_Typeface/Makuton.ttf);
-}
-body    {
-    margin: 0px;
-    background: rgb(240, 243, 245);
-    font-family: Makuton_Japanese_Vintage;
-}
-.menu {
-    background-color: #30a8b8;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partículas</title>
+    <link rel="stylesheet" href="css_partículas.css">
+</head>
+                                <!--Cabecera y menú-->
+<body style="background-color: blanchedalmond;">
+     <img src="Imagenes\日本語のコヂング_partículas.png" alt="Banner" style="width: 100%;" height="380px">
+    <div class="menu">
+        <nav class="menuCSS3">
+            <ul>
+                <li><a href="Inicio_V4.html">Inicio</a></li>
+                <li><a href="#">Lecciones</a>
+                    <ul>
+                        <li><a href="Leccion_1_Particulas.html"> Partículas </a></li>
+                        <li><a href="Leccion_2_Oraciones.html">Oraciones</a></li>
+                        <li><a href="Adjetivos.html">Adjetivos</a></li>
+                        <li><a href="verbos.html">Verbos</a></li>
+                    </ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+    
+                </li>
+            </ul>
+        </nav>
+        </div> 
+    <div class="title">
+        <img src="Imagenes\mega-guia-particulas-fb.jpg" alt="">
+    </div>
+        
+        <div class="cuerpo">
+            <div id="titulos">
+                <h3>Partículas. (助詞, joshi)</h3>
+            </div>
+        
+        <p>Las partículas tienen una función muy parecida a las preposiciones en el Castellano, aunque se colocan tras la palabra tras la que recae la acción, por lo tanto serán posposiociones.
+        </p>
+        <p>Cada partícula tiene una función determinada, por ejemplo, la partícula は hace referencia 
+            a que estamos hablando sobre un tema, actua como un marcador temático, por ejemplo: </p>
+            <p>
+                <b>わたし は ウゴ です</b> Leído como: <i>"<b>Watashi wa ugo des</b>"</i> la traducción literal sería: <i>"<b>sobre mí, soy Hugo</b>"</i>  
+                aunque para tradurcirlo se nos hace más natural en nuestro idioma traducirlo como: <i>"<b>Soy hugo</b>"</i>.
+            <br><br> Hay que denotar que la partícula "は" se escribe con el hiragana "ha", pero cuando funciona como partícula se lee como "wa".
+            </p>
+        <p>
+            Una vez entendida la función de las partículas en el idioma japonés, aprenderemos las más básicas con las que podremos empezar a formar nuestras primeras frases. 
+            Por los que podemos hacer una lista de ellas:
+        </p> <img id="float" src="Imagenes\flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="">
+        <ul>
+            <li><b>は (wa)</b> Actúa como marcador temático, como ya hemos visto.</li><br>
+            <p>Ejemplo: その人は田中さんです。 </p><br>
+            <li><b>が (ga)</b> Marca el sujeto de la oración.</li><br>
+            <p>Ejemplo: 田中さんがいます。</p><br>
+            <li><b>に (ni)</b> Señala un lugar o un tiempo.</li><br>
+            <p>Ejemplo: 田中さんは日本に行った。</p><br>
+            <li><b>で (de)</b> Sirve para indicar el medio/lugar por/en el cual se realiza una acción.</li><br>
+            <p>Ejemplo: 映画館で見た。</p><br>
+            <li><b>も (mo)</b> Se usa como "también". Tiene más usos, pero profundizaremos más adelante en ellos.</li><br>
+            <p>Ejemplo: ペドロもスペイン人です。。</p><br>
+            <li><b>の (no)</b> Indica posesión.</li><br>
+            <p>Ejemplo: 日本語の本。</p><br>
+            <li><b>へ (he, pronunciado e)</b>Señala una dirección.</li><br>
+            <p>Ejemplo: 東京へいきます。</p><br>
+            <li><b>と (to)</b> Indica compañía, se suele traducir como y, sirve para enumerar.</li><br>
+            <p>Ejemplo:パンとスープを食べました。</p><br>
+            <li><b>を (wo, pronunciado como o)</b> Marca la acción sobre un objeto.</li><br>
+            <p>Ejemplo: 魚を食べる。 </p>
+            <ul></ul>
+                </li>
+             </ul>
+             
+             <p>Ahora que conocemos las partículas y sus usos básicos, ya podremos entender algunas frases sencillas, 
+           en la siguiente lección aprenderemos el orden de las palabras en las <a id="link" href="Leccion_2_Oraciones.html" >oraciones</a>.</p>    
+        
+           
+           
+        </div>
+        <div align="center" class="video">
+            <h4>Os dejo un vídeo que explica un poco más a fondo el tema de las partículas:</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XXegW97kOLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>    
+        
 
-.menuCSS3 ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.menuCSS3 a {
-    display: block;
-    padding: 2em;
-    background-color: #30a8b8;
-    text-decoration: none;
-    color: #191C26;
-}
-.menuCSS3 a:hover {
-    background-color: #0704af;
-    color: aliceblue;
-}
-.menuCSS3 ul li ul {
-    display: none;
-}
-.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
-    display: block;
-}
+        <div class="footer">
+            <div id="rotulo"><h2>Lista de reproducción Spotify</h2></div>
+            <iframe id="spoti" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXasMhtBJhqWM?utm_source=generator&theme=0" width="40%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-/* Hasta aquí el css del menú*/
-
-.footer     {
-    background-color: black;
-    color: aliceblue;
-    position: absolute;
-    width: 100%;
-}
-
-.icon       {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    position: relative;
-    bottom: 88px;
-    left: 14%;
-    padding: 20px;
-}
-
-#design     {
-    position: absolute;
-    top: 60%;
-    font-size: larger;
-    right: 100px;
-}
-
-#follow     {
-    position: relative;
-    top: 20px;
-    left: 1%;
-    font-size:45px;
-}
-
-#rotulo     {
-    position: absolute;
-    left: 44%;
-    top: 6%;
-}
-
-/*id para posicionar Spotify*/
-#spoti      {
-    position: absolute;
-    left: 32%;
-    top:40%;
-}
-
-/* Hasta aquí el css del footer*/
-
-.title      {
-    padding-left: 150px;
-    padding-right: 150px;
-    background-color: transparent;
-    background-image: url(./Imagenes/fondo-con-la-onda-tradicional-japonesa-69817201.jpg);
-    margin: auto;
-}
-
-.cuerpo     {
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-#link       {
-    text-decoration: none;
-}
-
-#link:visited   {
-    color: black;
-}
-
-h4  {
-    text-align: center;
-}
-
-img     {
-    display: block;
-    margin: auto;
-}
-
-.video   {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: transparent;
-    background-image: url(./Imagenes/fondo-con-la-onda-tradicional-japonesa-69817201.jpg);
-    background-size: 100%;
-    margin: auto;
-}
-
-#titulos {
-    background-color:rgb(201, 134, 33) ;
-    text-align: center;
-}
-
-#float {
-    float: right;
-    width: 750px;
-}
+            <div id="design">
+                <p>Designed by: Hugo.gonsan.1</p></div><div id="follow"><p>Follow me at:</p>
+            </div>
+            
+            </a><div class="icon">
+                <a href="https://twitter.com/HacheGe19"> <img src="Iconos\favicon_twitter.ico" alt=""></a>
+            </div>
+            
+            <div class="icon">  
+                <a href="https://www.youtube.com/channel/UCDFEtU3PkXqPdF1HuK0Ltlw"> <img src="Iconos\favicon_youtube.ico" alt=""></a>
+            </div>
+        </div>      
+</body>
+</html>
