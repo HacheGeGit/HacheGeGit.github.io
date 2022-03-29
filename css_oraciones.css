@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Makuton_Japanese_Vintage;
+    src: url(./Tipografías/Makuton_Japanese_Vintage_Typeface/Makuton.ttf);
+}
+body    {
+    margin: 0px;
+    background: rgb(240, 243, 245);
+    font-family: Makuton_Japanese_Vintage;
+}
+nav     {
+    background: repeating-radial-gradient(red, rgb(0, 174, 255), white) ;
+}
+.menu   {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.menu  li{
+display: inline-block;
+}
+
+.menu   a{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover{
+    background: repeating-radial-gradient(rgb(85, 13, 13), rgb(4, 4, 105), white)
+}
+
+.footer     {
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.icon       {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: -88px;
+    left: 250px;
+    padding: 20px;
+}
+
+#design     {
+    position: absolute;
+    top: 40%;
+    font-size: larger;
+    right: 100px;
+}
+
+#follow     {
+    position: relative;
+    top: 20px;
+    font-size:45px;
+}
+
+.cuerpo     {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#img        {
+    width: 100%;
+    height: 100%;
+}
