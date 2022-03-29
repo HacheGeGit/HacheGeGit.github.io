@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prac_01_Tittle_edmacfj</title>
+    <link rel="stylesheet" href="css_web.css">
+</head>
+<body>
+    
+    <img src="Imagenes\日本語のコヂング.png" alt="Banner" style="width: 1900px;" height="380px">
+    
+   
+            
+
+   <nav>
+       <ul class="menu">
+           <li><a href="Inicio_V3.html"> Inicio </a></li>
+            
+                <li><a href="Leccion_1_Particulas.html"> Partículas </a></li>
+                <li><a href="Leccion_2_Oraciones.html">Estructura básica de las oraciones</a></li>
+                <li><a href="Adjetivos.html">Adjetivos</a></li>
+                <li><a href="">Verbos</a></li>
+            
+           
+           <li><a href="">Recursos</a></li>
+           <li><a href="">Cultura Japonesa</a></li>
+       </ul>
+   </nav>
+               
+    <div class="Intro"><h3 >Introducción</h3>
+    <p>Mi ejercicio será sobre el aprendizaje del Japonés, por lo menos un nivel básico para que el usuario 
+        que lo lea sea capaz de tener una mínimas competencias lingüisticas para poderse comunicar y poder entender 
+        de forma básica.</p>
+
+        
+    <p >Lo principal para aprender un idioma que desciende de las lenguas altaícas es aprender su tipografía, 
+        es por ello que el primer paso deberá ser conocer el silabario japonés. El japonés tiene 2 silabarios distintos:
+        el hiragana y el katakana. Cada uno de ellos está compuesto por 46 caracteres que se relacionan a un sonido, una sílaba.
+        Ambos silabarios comparten pronunciación, la diferencia entre ambos reside en sus usos, pero es algo que ya veremos más adelante.
+        </p></div>
+    
+    
+       <div class="hirakata"> <h1 id="katagana">Los silabarios: Hiragana y Katakana.</h1> 
+        
+        <div id="hira"><img src="Imagenes\Hiragana-table-1024x710.jpg" alt="Silabario hiragana" width="600" height="400"></div>
+        <div id="video"><iframe width="560" height="400" src="https://www.youtube.com/embed/sEmleJaZO5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="kata"><img src="Imagenes\Katakana-table-1024x710.jpg" alt= "Silabario katakana"width="600" height="400"></div>    
+            
+            </div>
+      
+      <div class="kanji"> <h3 >El tercer sistema de escritura, el Kanji</h3>
+    <p>A parte del <i>Hiragana</i> y el <i>Katakana</i>, el Kanji es un sistema sinográfico que está compuesto por más de 3500 signos,
+    cada uno relacionado con un significado y varias lecturas distintas. Su uso es el de expresar conceptos. Los kanjis pueden combinarse 
+    en ateji (当て字), que son kanjis combinados que no obedecen a su significado original, sino que tienen otro distinto, pero mantienen 
+    su valor fonético.
+        <br>
+        <br>
+    Hay más de cuarenta mil kanjis, aunque la mayoría de japoneses se las apañan con tres mil. Unos pocos son pictogramas: dibujos que 
+    representan objetos o personas. Así, 日es sol, 木 árbol, 山 montaña o 女 mujer.  Otros son ideogramas, plasmaciones de conceptos 
+    como 上 arriba o 大 grande, un kanji que representa un hombre abriendo mucho los brazos. También se pueden formar ideogramas 
+    compuestos: juntar por ejemplo los kanjis 女 mujer y 古 vieja para formar 姑 = suegra. Sin comentarios.
+        <br>
+        <br>
+        En realidad la mayoría de kanjis (alrededor del 90%) son compuestos semántico-fonéticos… Es decir, caracteres en que una parte 
+        indica la pronunciación y el resto sugiere el significado. Por ejemplo, 銅 cobre y 胴 torso se pronuncian igual, dou; la parte 
+        de la derecha 同indica la pronunciación, mientras que el símbolo de la izquierda o radical da la pista del significado: 金indica 
+        que el kanji es un tipo de metal, y 月 una parte del cuerpo.
+
+    </p> <br>
+     
+        <p>Hay mucho que decir de los Kanji, pero es un tema que veremos más adelante en lecciones más avanzadas, de momento nos vale con 
+            conocer el concepto de Kanji.</p></div>  
+   <div class="footer"><div id="design"><p>Designed by: Hugo.gonsan.1</p></div><div id="follow"><p>Follow me at:</p></div>
+    
+    
+   </a><div class="icon"><a href="https://twitter.com/HacheGe19"> <img src="Iconos\favicon_twitter.ico" alt=""></a></div>
+   <div class="icon"><a href="https://www.youtube.com/channel/UCDFEtU3PkXqPdF1HuK0Ltlw"> <img src="Iconos\favicon_youtube.ico" alt=""></a></div>
+</div>
+       
+</body>
+</html>
