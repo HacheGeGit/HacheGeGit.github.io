@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Makuton_Japanese_Vintage;
+    src: url(./Tipografías/Makuton_Japanese_Vintage_Typeface/Makuton.ttf);
+}
+body    {
+    margin: 0px;
+    background: rgb(240, 243, 245);
+    font-family: Makuton_Japanese_Vintage;
+}
+.menu {
+    background-color: #30a8b8;
+}
+
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #30a8b8;
+    text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: #0704af;
+    color: aliceblue;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+
+/* Hasta aquí el css del menú*/
+
+.footer     {
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    width: 100%;
+}
+
+.icon       {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 88px;
+    left: 14%;
+    padding: 20px;
+}
+
+#design     {
+    position: absolute;
+    top: 60%;
+    font-size: larger;
+    right: 100px;
+}
+
+#follow     {
+    position: relative;
+    top: 20px;
+    left: 1%;
+    font-size:45px;
+}
+
+#rotulo     {
+    position: absolute;
+    left: 44%;
+    top: 6%;
+}
+
+/*id para posicionar Spotify*/
+#spoti      {
+    position: absolute;
+    left: 32%;
+    top:40%;
+}
+/* Hasta aquí el css del footer*/
+
+.form-contact   {
+    background-color: azure;
+    opacity: 90%;
+    width: 400px;
+    border-radius: 7%;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);  
+}
+
+#pos    {
+    position:sticky;
+    left: 750px;
+    top: 140px;
+}
+
+header   {
+    width: 100%;
+    background-color: rgb(207, 27, 27);
+    overflow: hidden;
+    border-top-right-radius: 7%;
+    border-top-left-radius: 7%;
+}
+
+header span {
+font-size: 100%;
+display: block;
+text-align: center;
+padding: 2.5rem;
+}
+
+.contact {
+padding: .8rem;
+overflow: hidden;
+}
+
+.contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.contact label {
+    font-weight: 600;
+}
+
+.contact input:not([type='submit']), .contact textarea {
+    border: none;
+    border-bottom: 2px solid red;
+    font-size:  20px;
+    outline: none;
+    color: black;
+}
+
+.contact textarea {
+    min-height: 100px;
+}
+
+input[type='submit']{
+    padding: 10px;
+    border: none;
+    background-color: rgb(207, 27, 27);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.texto {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-image: url(./Imagenes/tegamiwokaku.jpg);
+    background-size: 100%;
+}
+
+.formulario {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-size: 100%;
+    background-image: url(./Imagenes/png-clipart-akita-japan-united-states-puppy-rising-sun-flag-rising-sun-text-united-states.png);
+    background-color: transparent; 
+    position: relative; 
+}
