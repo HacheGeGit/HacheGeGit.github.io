@@ -9,33 +9,36 @@ body    {
     background: rgb(240, 243, 245);
     font-family: Makuton_Japanese_Vintage;
 }
-nav     {
-    background: repeating-radial-gradient(red, rgb(0, 174, 255), white) ;
-    width: 100%;
-  
-}
-.menu   {
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    
+
+.menu {
+    background-color: #30a8b8;
 }
 
-.menu  li{
-display: inline-block;
-position: relative;
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-
-.menu   a{
-    padding: 10px;
-    color: aliceblue;
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #30a8b8;
     text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: #0704af;
+    color: aliceblue;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
     display: block;
 }
 
-.menu a:hover{
-    background: repeating-radial-gradient(rgb(85, 13, 13), rgb(4, 4, 105), white)
-}
+/* Hasta aquí el css del menú*/
 
 .Intro    {
 background: rgb(240, 243, 245);
@@ -61,29 +64,7 @@ left: 0px;
    padding-left: 30px;
 }
 
-.footer     {
-    background-color: black;
-    color: aliceblue;
-    position: absolute;
-    width: 100%;
-    
-}
 
-.icon       {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    position: relative;
-    top: -88px;
-    left: 250px;
-    padding: 20px;
-}
-
-.spoty      {
-    position: relative;
-    right: -800px;
-    top: -100px;
-}
 
 #katagana   {
 background-color: aliceblue;
@@ -108,9 +89,28 @@ opacity: 50%;
     top: 140px;
 }
 
+/*Footer*/
+
+.footer     {
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    width: 100%;
+}
+
+.icon       {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 88px;
+    left: 14%;
+    padding: 20px;
+}
+
 #design     {
     position: absolute;
-    top: 40%;
+    top: 60%;
     font-size: larger;
     right: 100px;
 }
@@ -118,5 +118,19 @@ opacity: 50%;
 #follow     {
     position: relative;
     top: 20px;
+    left: 1%;
     font-size:45px;
+}
+
+#rotulo     {
+    position: absolute;
+    left: 44%;
+    top: 6%;
+}
+
+/*id para posicionar Spotify*/
+#spoti      {
+    position: absolute;
+    left: 32%;
+    top:40%;
 }
