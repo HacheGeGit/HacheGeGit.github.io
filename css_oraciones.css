@@ -7,37 +7,41 @@ body    {
     background: rgb(240, 243, 245);
     font-family: Makuton_Japanese_Vintage;
 }
-nav     {
-    background: repeating-radial-gradient(red, rgb(0, 174, 255), white) ;
-}
-.menu   {
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    
+.menu {
+    background-color: #30a8b8;
 }
 
-.menu  li{
-display: inline-block;
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-
-.menu   a{
-    padding: 10px;
-    color: aliceblue;
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #30a8b8;
     text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: #0704af;
+    color: aliceblue;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
     display: block;
 }
 
-.menu a:hover{
-    background: repeating-radial-gradient(rgb(85, 13, 13), rgb(4, 4, 105), white)
-}
+/* Hasta aquí el css del menú*/
 
 .footer     {
     background-color: black;
     color: aliceblue;
     position: absolute;
     width: 100%;
-    
 }
 
 .icon       {
@@ -45,14 +49,14 @@ display: inline-block;
     height: 20px;
     display: inline-block;
     position: relative;
-    top: -88px;
-    left: 250px;
+    bottom: 88px;
+    left: 14%;
     padding: 20px;
 }
 
 #design     {
     position: absolute;
-    top: 40%;
+    top: 60%;
     font-size: larger;
     right: 100px;
 }
@@ -60,15 +64,44 @@ display: inline-block;
 #follow     {
     position: relative;
     top: 20px;
+    left: 1%;
     font-size:45px;
 }
 
+#rotulo     {
+    position: absolute;
+    left: 44%;
+    top: 6%;
+}
+
+/*id para posicionar Spotify*/
+#spoti      {
+    position: absolute;
+    left: 32%;
+    top:40%;
+}
+/* Hasta aquí el css del footer*/
+
 .cuerpo     {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: block;
 }
 
 #img        {
     width: 100%;
     height: 100%;
+}
+
+
+#titulos {
+    background-color:rgb(158, 49, 37) ;
+    text-align: center;
+}
+
+#float {
+    float: left;
+    width: 450px;
+    padding-bottom: 20px;
+    padding-right: 20px ;
 }
